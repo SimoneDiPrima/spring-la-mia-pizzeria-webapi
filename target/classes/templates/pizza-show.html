@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.1.3/css/bootstrap.min.css}"/>
+<title>Insert title here</title>
+</head>
+<body class="bg-dark text-center my-5">
+	<container class="text-white">
+	<a href="/"  class="col-2 ms-4 btn btn-danger d-block">Torna al menu principale</a>
+	<img src="https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg" alt="la pizza piu buona del mondo">
+	<h2> [[${pizza.name}]]</h2>
+	<p>[[${pizza.description}]]</p>
+	<h5>[[${pizza.price}]]€</h5>
+	<a class="offset-10 btn btn-success">Ordina Subito</a>
+	</container>
+</body>
+</html>
